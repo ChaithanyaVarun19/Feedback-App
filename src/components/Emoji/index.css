@@ -1,0 +1,25 @@
+.emoji {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 70px;
+    height: 70px;
+  }
+}
+.emoji-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-name {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+  }
+}
